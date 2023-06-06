@@ -128,6 +128,7 @@
     .modal {
     
             &__window {
+                margin: 20px 15px;
             }
     
             &__window-inner {
@@ -161,7 +162,7 @@
     
         &__window {
             padding: 15px;
-            margin: 30px 10px;
+            margin: 10px;
         }
 
         &__window-inner {

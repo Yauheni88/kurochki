@@ -354,10 +354,15 @@ body {
     margin: 30px 15px;
   }
 }
+@media screen and (max-width: 768px) {
+  .modal__window {
+    margin: 20px 15px;
+  }
+}
 @media screen and (max-width: 490px) {
   .modal__window {
     padding: 15px;
-    margin: 30px 10px;
+    margin: 10px;
   }
   .modal__title {
     font-size: 28px;
