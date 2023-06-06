@@ -85,7 +85,6 @@ body {
 .header {
   background: url(./assets/img/1660454140_22-KARTINKIN-NET-P-OBOI-S-KURAMI-KRASIVO-24.WEBP);
   height: 100vh;
-  min-height: 500px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -95,7 +94,6 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  min-height: 500px;
 }
 .header__box {
   max-width: 780px;
@@ -122,6 +120,20 @@ body {
   background-color: var(--accent-color-dark);
 }
 
+@media (max-width: 992px) and (orientation: landscape) {
+  .header {
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    min-height: 70vw;
+    max-width: 100vw;
+  }
+  .header__inner {
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    min-height: 70vw;
+    max-width: 100vw;
+  }
+}
 @media screen and (max-width: 768px) {
   .header__title {
     font-size: 45px;
