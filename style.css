@@ -83,7 +83,7 @@ body {
   }
 }
 .header {
-  background: url(./assets/img/1660454140_22-kartinkin-net-p-oboi-s-kurami-krasivo-24.jpg);
+  background: url(./assets/img/1660454140_22-KARTINKIN-NET-P-OBOI-S-KURAMI-KRASIVO-24.WEBP);
   height: 100vh;
   min-height: 500px;
   background-repeat: no-repeat;
@@ -364,7 +364,7 @@ body {
 @media screen and (max-width: 490px) {
   .modal__window {
     padding: 15px;
-    margin: 10px;
+    margin: 10px 10px 70px 10px;
   }
   .modal__title {
     font-size: 28px;
