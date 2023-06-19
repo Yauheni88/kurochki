@@ -22,7 +22,7 @@ html {
 
 body {
   position: relative;
-  font-family: "Forum", cursive;
+  font-family: "Mulish";
   line-height: 1.3;
 }
 
@@ -81,6 +81,27 @@ body {
     font-size: 35px;
     padding: 25px 0 25px;
   }
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("./assets/font/Mulish-Light.woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("/assets/font/Mulish-Regular.woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("./assets/font/Mulish-Bold.woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 .header {
   background: url(./assets/img/1660454140_22-KARTINKIN-NET-P-OBOI-S-KURAMI-KRASIVO-24.WEBP);
